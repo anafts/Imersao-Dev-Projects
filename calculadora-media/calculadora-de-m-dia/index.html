@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de média</title>
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+
+  <main>
+
+    <div class="container">
+
+      <h1 class="page-title"> Calculadora de média </h1>
+  
+      <p class="page-subtitle"> Descubra qual a sua média de nota de todas as provas! </p>
+  
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+
+      <div class="media">
+        <div class="media_items">
+
+          
+          <label> Nota da primeira únidade </label>
+        <input type="number" id="primeiraNota">
+
+        <label> Nota da segunda únidade </label>
+        <input type="number" id="segundaNota" >
+
+        <label> Nota da terceira únidade </label>
+        <input type="number" id="terceiraNota">
+
+        <label> Nota da quarta únidade </label>
+        <input type="number" id="quartaNota">
+        </div>
+        
+
+        <button type="button"onclick='calcularMedia()' > Calcular </button>
+ 
+
+        <h2 id="mediafinal"></h2>
+        <h2 id="info"></h2> 
+      </div>
+  
+          <a href="https://alura.com.br/" target="_blank">
+          <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+          </a>
+
+      </div>
+  
+  </main>
+
+
+  <script src="./src/app.js" > </script>
+  
+</body>
+</html>
