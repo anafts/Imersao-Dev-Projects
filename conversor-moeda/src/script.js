@@ -2,8 +2,8 @@ const valorConvertido = document.querySelector('#valorConvertido');
 
 function Converter() {
     
-    const valorDola = Number(document.querySelector("#valor").value);
-    const valorReal = valorDola * 5;
+    const valorReal = Number(document.querySelector("#valor").value);
+    const valorPesoArgentino = valorReal * 27.09;
 
-    valorConvertido.innerHTML = `O resultado em real é R$ ${valorReal}`
+    valorConvertido.innerHTML = `O resultado em peso argentino é ${valorPesoArgentino}`
 };
