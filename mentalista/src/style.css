@@ -1,0 +1,72 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 600px;
+  background-image: url("./imagens/Banner-Cabecera-la-gran-tienda-de-Doctor-Strange-Multiverso-Locura.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center bottom 90% ;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #fff;
+  font-size: 40px;
+  margin: 30px 0 15px;
+}
+
+.page-subtitle {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  margin: 4px;
+  padding: 12px 50px;
+  border-radius: 5px;
+  border: 2px solid #ac1333;
+}
+
+button {
+  margin-top: 12px;
+  padding: 10px 40px;
+  border-radius: 5px;
+  border: 2px solid #ac1333;
+  background-color: transparent;
+  color: #fff;
+  font-size: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #ac1333;
+}
+
+.resultado {
+  color: #fff;
+  text-align: center;
+  margin-top: 16px;
+}
