@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    background: linear-gradient(68.7deg, rgb(235, 217, 221) 8%, rgb(216, 174, 211) 55.4%, rgb(145, 130, 196) 91.1%);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+    background-color: #F7F7F7;
+    box-shadow: 6px 6px 6px #0E1D2F;
+    border-radius: 20px;
+    margin: 64px;
+    color: #1C1C1C;
+    padding: 64px;
+}
+
+.profile {
+    display: flex;
+}
+
+.profile__img {
+    max-height: 120px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.25);
+    transform: transform .3s;
+}
+
+.profile__img:hover {
+    transform: scale(1.1);
+}
+
+.profile__info {
+    margin-left: 20px;
+}
+
+.profile__title {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.profile__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+button {
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px 16px;
+    border-radius: 80px;
+    background-color: #BFACE0;
+    color: #1C1C1C;
+    border: 1px solid #F7F7F7;
+    transform: transform .3s;
+    margin-left: 30px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+
+.container__portfolio {
+    border-radius: 20px;
+    background-color: #BFACE0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    margin-top: 32px;
+    box-shadow: 2px 2px 4px rgb(16, 16, 16, 0.42);
+}
+
+.portfolio_title {
+    list-style: none;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.portfolio_title_item {
+    text-decoration: none;
+    line-height: 48px;
+    color: #1C1C1C;
+    margin-left: 10px;
+
+}
+
+.dark {
+    background: linear-gradient(310.6deg, rgba(100, 0, 233, 0.94) 6.8%, rgba(166, 0, 188, 0.66) 57.8%);
+   
+}
+
+.dark .container {
+    background-color: #1C1C1C;
+    color: #F7F7F7;
+}
+
+.dark .container__portfolio {
+    background-color: #c557d3;
+}
+
+.dark .portfolio_title_item {
+    color: #F7F7F7;
+}
+
+.dark button {
+    background-color: #c557d3;
+    border: 1px solid #1C1C1C;
+    color: #F7F7F7;
+}
+
+
+
