@@ -3,6 +3,8 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/anafts/Imersao-Dev-Projects?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/anafts/Imersao-Dev-Projects?style=for-the-badge)
 
+ ![preview](./.github/preview.png)
+
 
 ## 
 Os projetos foram desenvolvidos durante a semana da Imersão dev da Alura 
