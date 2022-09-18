@@ -1,7 +1,7 @@
 # Imersão dev alura
 
-![GitHub repo size](https://img.shields.io/github/repo-size/anafts/Readme--template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/anafts/Readme--template?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/anafts/Imersao-Dev-Projects?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/anafts/Imersao-Dev-Projects?style=for-the-badge)
 
 
 ## 
