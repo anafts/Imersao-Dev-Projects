@@ -7,7 +7,7 @@
 
 
 ## 
-Os projetos foram desenvolvidos durante a semana da Imersão dev da Alura 
+Os projetos foram desenvolvidos durante a semana da Imersão dev da Alura e adaptados por mim. 
 
  #
 
