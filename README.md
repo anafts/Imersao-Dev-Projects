@@ -8,7 +8,7 @@
 
 ## 💻 Descrição:
 
-Alguns projetos, como: calculadora de média, conversor de moedas, jogo super-trufo, etc, desenvolvidos durante a semana da Imersão dev da Alura e adaptados por mim.
+Alguns projetos, como: calculadora de média, conversor de moedas, aluraflix, jogo super-trufo, etc, desenvolvidos durante a semana da Imersão dev da Alura e adaptados por mim.
 
 
 ## 🛠️ Tecnologias:
